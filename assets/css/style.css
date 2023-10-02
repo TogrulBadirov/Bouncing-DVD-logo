@@ -1,0 +1,78 @@
+body{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    background-color: black;
+}
+div{
+    background:  url(/assets/img/dvdlogo-04.svg);
+    background-size: cover;
+    width: 230px;
+    height: 100px;
+    animation-name: screenSaver;
+    animation-duration: 20s;
+    animation-iteration-count: infinite;
+    animation-timing-function: linear;
+    animation-direction: alternate;
+}
+
+@keyframes screenSaver {
+    0% {
+        transform: translate(0vw, 0vh);
+        filter: hue-rotate(0deg);
+    }
+    14.2% {
+        transform: translate(45vw, 85vh);
+        filter: hue-rotate(45deg);
+    }
+    28.4% {
+        transform: translate(85vw, 35vh);
+        filter: hue-rotate(90deg);
+    }
+    42.6% {
+        transform: translate(65vw, 0vh);
+        filter: hue-rotate(135deg);
+    }
+    56.8% {
+        transform: translate(20vw, 85vh);
+        filter: hue-rotate(180deg);
+    }
+    71% {
+        transform: translate(0vw, 35vh);
+        filter: hue-rotate(225deg);
+    }
+    85.2% {
+        transform: translate(15vw, 0vh);
+        filter: hue-rotate(270deg);
+    }
+    100% {
+        transform: translate(85vw, 85vh);
+        filter: hue-rotate(315deg);
+    }
+}
+/* @keyframes screenSaver{
+    0%{
+        transform: translate(0vw,0vh);
+    }
+    14.2%{
+        transform: translate(45vw,85vh);
+    }
+    28.4%{
+        transform: translate(85vw,35vh);
+    }
+    42.6%{
+        transform: translate(65vw,0vh);
+    }
+    56.8%{
+        transform: translate(20vw,85vh);
+    }
+    71%{
+        transform: translate(0vw,35vh);
+    }
+    85.2%{
+        transform: translate(15vw,0vh);
+    }
+    100%{
+        transform: translate(85vw,85vh);
+    }
+} */
